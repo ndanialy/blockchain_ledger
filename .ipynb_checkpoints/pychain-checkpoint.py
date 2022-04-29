@@ -178,10 +178,10 @@ pychain = setup()
 Sender = st.text_input("Sender")
 
 #Creating a streamlit data input  for Receiver
-Sender = st.text_input("Receiver")
+Receiver = st.text_input("Receiver")
 
 #Creating a streamlit data input  for Amount
-Sender = st.text_input("Amount")
+Amount = st.text_input("Amount")
 
 if st.button("Add Block"):
     prev_block = pychain.chain[-1]
